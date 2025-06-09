@@ -145,6 +145,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Guruprasad Lokhande - lokhandeguru03@gmail.com
+Prithviraj Chavan - chavanpruthviraj9595@gmail.com
 
-Project Link: [https://github.com/GuruprasadLokhande/Blog-Spot](https://github.com/GuruprasadLokhande/Blog-Spot)
