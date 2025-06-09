@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 const getCookieValue = require("../helper/cookieHandler");
-const User = require("../model/User");
+const User = require("../model/user");
 
 const refreshToekn = (res, email, userId, ip, userAgent) => {
   const secret = process.env.SECRET;
