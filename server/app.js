@@ -17,7 +17,7 @@ app.use(requestIp.mw());
 
 // CORS configuration
 app.use((req, res, next) => {
-  const allowedOrigins = process.env.ALLOW_ORIGINES ||  'http://localhost:3000'|| "https://blogspot.netlify.app";
+  const allowedOrigins = process.env.ALLOW_ORIGINES || "http://localhost:3000";
   res.setHeader("Access-Control-Allow-Origin", allowedOrigins);
   res.setHeader(
     "Access-Control-Allow-Methods",

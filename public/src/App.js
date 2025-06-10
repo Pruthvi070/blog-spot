@@ -11,7 +11,7 @@ import Signup from "./components/Auth/Signup";
 import ForgotPassEmail from "./components/Auth/ForgotPasswordEmail";
 import ResetPass from "./components/Auth/ResetPassword";
 
-const apiUrl = process.env.REACT_APP_SERVER_URL || "http://localhost:3030";
+const apiUrl = process.env.REACT_APP_SERVER_URL || "http://localhost:3000";
 
 const App = () => {
   const location = useLocation();
