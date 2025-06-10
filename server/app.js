@@ -17,7 +17,7 @@ app.use(requestIp.mw());
 
 // CORS configuration
 app.use((req, res, next) => {
-  const allowedOrigins = process.env.ALLOW_ORIGINES || "http://localhost:3000";
+  const allowedOrigins = process.env.ALLOW_ORIGINES || "https://6847a12546db84fe4178172a--prismatic-taffy-33098f.netlify.app/";
   res.setHeader("Access-Control-Allow-Origin", allowedOrigins);
   res.setHeader(
     "Access-Control-Allow-Methods",
